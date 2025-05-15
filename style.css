@@ -1,0 +1,42 @@
+body {
+  background: url('assets/GIF_HACKER.gif') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Orbitron', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background: #222;
+  color: #0f0;
+  padding: 20px;
+  width: 300px;
+  margin: 60px auto;
+  border-radius: 12px;
+  box-shadow: 0 0 15px #0f0;
+  text-align: center;
+}
+
+input[type="number"], input[type="checkbox"] {
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #0f0;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#result {
+  background: black;
+  color: lime;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #0f0;
+  font-family: monospace;
+}
